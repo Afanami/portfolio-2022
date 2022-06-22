@@ -1,9 +1,11 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
-import "./Nav.css";
 import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
 import { BiBook, BiMessageSquareDetail } from "react-icons/bi";
-import { RiServiceLine } from "react-icons/ri";
-import { BsFolder2Open } from "react-icons/bs";
+import "./Nav.css";
+
+import { RiSlideshowLine } from "react-icons/ri";
+// import { RiServiceLine } from "react-icons/ri";
 
 export default function Nav() {
   const [activeNav, setActiveNav] = useState("#");
@@ -32,7 +34,7 @@ export default function Nav() {
         href="#portfolio"
         className={activeNav === "#portfolio" ? "active" : ""}
         onClick={() => setActiveNav("#portfolio")}>
-        <BsFolder2Open />
+        <RiSlideshowLine />
       </a>
       {/* <a
         href="#services"
