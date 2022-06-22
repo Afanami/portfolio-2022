@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <footer>
       <a href="#" className="footer__logo">
-        Afanami
+        Afan Ahmed
       </a>
 
       <ul className="permalinks">
@@ -45,7 +45,7 @@ export default function Footer() {
       </div>
 
       <div className="footer__copyright">
-        <small>&copy; Afanami. All rights reserved.</small>
+        <small>&copy; Afan Ahmed. All rights reserved.</small>
       </div>
     </footer>
   );

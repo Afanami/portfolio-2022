@@ -2,10 +2,9 @@
 import React, { useState } from "react";
 import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
 import { BiBook, BiMessageSquareDetail } from "react-icons/bi";
-import "./Nav.css";
-
 import { RiSlideshowLine } from "react-icons/ri";
 // import { RiServiceLine } from "react-icons/ri";
+import "./Nav.css";
 
 export default function Nav() {
   const [activeNav, setActiveNav] = useState("#");

@@ -1,7 +1,7 @@
 import React from "react";
 import { FaAward } from "react-icons/fa";
-import { FiUsers } from "react-icons/fi";
-import { VscFolderLibrary } from "react-icons/vsc";
+import { GiGraduateCap } from "react-icons/gi";
+import { BiCodeAlt } from "react-icons/bi";
 import ME from "../../assests/aboutme2.jpg";
 import "./About.css";
 
@@ -21,23 +21,25 @@ export default function About() {
             </article>
 
             <article className="about__card">
-              <FiUsers className="about__icon" />
-              <h5>Clients</h5>
-              <small>200+ Worldwide</small>
+              <GiGraduateCap className="about__icon" />
+              <h5>Degree</h5>
+              <small>BE(HONS) Mechatronics Engineering 2020</small>
             </article>
 
             <article className="about__card">
-              <VscFolderLibrary className="about__icon" />
-              <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <BiCodeAlt className="about__icon" />
+              <h5>Favourite Language</h5>
+              <small>JavaScript</small>
             </article>
           </div>
 
           <p>
-            Graduate Mechatronics Engineer And Software DeveloperGraduate
-            Mechatronics Engineer And Software DeveloperGraduate Mechatronics
-            Engineer And Software DeveloperGraduate Mechatronics Engineer And
-            Software Developer
+            Hi I'm Afan, a Software Developer working in the industry for 3
+            years. I have a strong passion for building aesthetic user
+            interfaces with seamless user experieces tied to them. My favourite
+            technologies to work with are React on the frontend with a SQL
+            backend. But ofcourse it all depends on the project needs! If you're
+            looking to get reach out, get something built or just have a chat...
           </p>
 
           <a href="#contact" className="btn btn-primary">
