@@ -1,5 +1,5 @@
 import React from "react";
-import cv from "../../assests/cv.txt";
+import cv from "../../assests/cv.pdf";
 import ME from "../../assests/me.png";
 import { BsLinkedin, BsInstagram } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
@@ -14,7 +14,7 @@ export default function Header() {
         <h5 className="text-light">Front-End Developer</h5>
 
         <div className="cta">
-          <a href={cv} download className="btn">
+          <a href={cv} download="afan-ahmed-cv" className="btn">
             Download CV
           </a>
           <a href="#contact" className="btn btn-primary">

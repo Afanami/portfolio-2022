@@ -38,8 +38,8 @@ export default function About() {
             years. I have a strong passion for building aesthetic user
             interfaces with seamless user experieces tied to them. My favourite
             technologies to work with are React on the frontend with a SQL
-            backend. But ofcourse it all depends on the project needs! If you're
-            looking to get reach out, get something built or just have a chat...
+            backend. If you're looking to reach out, get something built or just
+            have a chat...
           </p>
 
           <a href="#contact" className="btn btn-primary">

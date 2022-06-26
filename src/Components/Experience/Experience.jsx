@@ -24,8 +24,8 @@ export default function Experience() {
           <h3>Backend Development</h3>
           <div className="experience__content">
             <Skill skillName={"C#"} skillExperience={"2+ Years"} />
-            <Skill skillName={"Node"} skillExperience={"2+ Years"} />
             <Skill skillName={"MS SQL"} skillExperience={"2+ Years"} />
+            <Skill skillName={"Node"} skillExperience={"1+ Years"} />
             <Skill skillName={"Express"} skillExperience={"1+ Months"} />
             <Skill skillName={"FireBase"} skillExperience={"1+ Months"} />
             <Skill skillName={"GIT VCS"} skillExperience={"3+ Years"} />

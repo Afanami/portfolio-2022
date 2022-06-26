@@ -1,4 +1,4 @@
-// import GOOGLEDRIVECLONE_IMG from "../../assests/afaneeos.jpeg";
+import GOOGLEDRIVECLONE_IMG from "../../assests/moogledrive.jpg";
 import YELPCLONE_IMG from "../../assests/yelperia.jpeg";
 import AFANEEOS_IMG from "../../assests/afaneeos.jpeg";
 import BUDGETTRACKING_IMG from "../../assests/budgetapp.jpg";
@@ -6,13 +6,13 @@ import PREMIUMFOODS_IMG from "../../assests/premiumfood.jpeg";
 import HENNGECHALLENGE_IMG from "../../assests/emailMockup.jpg";
 
 export const projects = [
-  // {
-  //   id: 1,
-  //   name: "Google Drive Clone",
-  //   image: GOOGLEDRIVECLONE_IMG,
-  //   github: "",
-  //   demo: "",
-  // },
+  {
+    id: 1,
+    name: "Google Drive Clone",
+    image: GOOGLEDRIVECLONE_IMG,
+    github: "https://github.com/Afanami/google-drive-clone",
+    demo: "https://moogledrive.netlify.app/",
+  },
   {
     id: 2,
     name: "Yelp Clone",
