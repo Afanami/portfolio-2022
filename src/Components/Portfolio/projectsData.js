@@ -11,7 +11,7 @@ export const projects = [
     name: "Google Drive Clone",
     image: GOOGLEDRIVECLONE_IMG,
     github: "https://github.com/Afanami/google-drive-clone",
-    demo: "https://moogledrive.netlify.app/",
+    demo: "https://moogledrive.com/",
   },
   {
     id: 2,
