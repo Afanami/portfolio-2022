@@ -35,7 +35,7 @@ export default function Header() {
         </div>
 
         <div className="me">
-          <img src={ME} alt="Afan Ahmed" />
+          <img src={ME} alt="Afan Ahmed" loading="lazy" />
         </div>
 
         <a href="#contact" className="scroll__down">
