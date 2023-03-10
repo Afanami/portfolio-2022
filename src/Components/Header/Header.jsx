@@ -11,7 +11,7 @@ export default function Header() {
       <div className="container header__container">
         <h5>Hello I'm</h5>
         <h1>Afan Ahmed</h1>
-        <h5 className="text-light">Front-End Developer</h5>
+        <h5 className="text-light">Full-Stack Software Engineer</h5>
 
         <div className="cta">
           <a href={cv} download="afan-ahmed-cv" className="btn">
@@ -32,9 +32,9 @@ export default function Header() {
           <a href="https://github.com/Afanami" target="_blank" rel="noreferrer">
             <FaGithub />
           </a>
-          <a href="https://instagram.com" target="_blank" rel="noreferrer">
+          {/* <a href="https://instagram.com" target="_blank" rel="noreferrer">
             <BsInstagram />
-          </a>
+          </a> */}
         </div>
 
         <div className="me">

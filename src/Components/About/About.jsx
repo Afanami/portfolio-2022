@@ -34,12 +34,12 @@ export default function About() {
           </div>
 
           <p>
-            Hi I'm Afan, a Software Developer working in the industry for 3
+            Hi I'm Afan, a Software Engineer working in the industry for 3
             years. I have a strong passion for building aesthetic user
             interfaces with seamless user experieces tied to them. My favourite
-            technologies to work with are React on the frontend with a SQL
-            backend. If you're looking to reach out, get something built or just
-            have a chat...
+            technologies to work with are React on the frontend with a C# and
+            SQL backend. If you're looking to reach out, get something built or
+            just have a chat...
           </p>
 
           <a href="#contact" className="btn btn-primary">

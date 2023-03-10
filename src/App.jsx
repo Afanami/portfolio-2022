@@ -2,7 +2,6 @@ import React from "react";
 import Header from "./Components/Header/Header";
 import Nav from "./Components/Nav/Nav";
 import About from "./Components/About/About";
-// import Services from "./Components/Services/Services";
 import Experience from "./Components/Experience/Experience";
 import Portfolio from "./Components/Portfolio/Portfolio";
 import Contact from "./Components/Contact/Contact";
@@ -16,7 +15,6 @@ export default function App() {
       <Nav />
       <About />
       <Experience />
-      {/* <Services /> */}
       <Portfolio />
       <Contact />
       <Footer />

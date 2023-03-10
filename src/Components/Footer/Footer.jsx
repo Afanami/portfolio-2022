@@ -7,9 +7,9 @@ import "./Footer.css";
 export default function Footer() {
   return (
     <footer>
-      <a href="#" className="footer__logo">
+      {/* <a href="#" className="footer__logo">
         Afan Ahmed
-      </a>
+      </a> */}
 
       <ul className="permalinks">
         <li>
@@ -39,9 +39,9 @@ export default function Footer() {
         <a href="https://github.com/Afanami" target="_blank" rel="noreferrer">
           <FaGithub />
         </a>
-        <a href="https://instagram.com" target="_blank" rel="noreferrer">
+        {/* <a href="https://instagram.com" target="_blank" rel="noreferrer">
           <BsInstagram />
-        </a>
+        </a> */}
       </div>
 
       <div className="footer__copyright">
