@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import { BsLinkedin, BsInstagram } from "react-icons/bs";
+import { BsLinkedin } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 import "./Footer.css";
 
@@ -39,9 +39,6 @@ export default function Footer() {
         <a href="https://github.com/Afanami" target="_blank" rel="noreferrer">
           <FaGithub />
         </a>
-        {/* <a href="https://instagram.com" target="_blank" rel="noreferrer">
-          <BsInstagram />
-        </a> */}
       </div>
 
       <div className="footer__copyright">

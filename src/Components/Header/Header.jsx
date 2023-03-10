@@ -1,7 +1,7 @@
 import React from "react";
 import cv from "../../assests/cv.pdf";
 import ME from "../../assests/me.png";
-import { BsLinkedin, BsInstagram } from "react-icons/bs";
+import { BsLinkedin } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 import "./Header.css";
 
@@ -32,9 +32,6 @@ export default function Header() {
           <a href="https://github.com/Afanami" target="_blank" rel="noreferrer">
             <FaGithub />
           </a>
-          {/* <a href="https://instagram.com" target="_blank" rel="noreferrer">
-            <BsInstagram />
-          </a> */}
         </div>
 
         <div className="me">
