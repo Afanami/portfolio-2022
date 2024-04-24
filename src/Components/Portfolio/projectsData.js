@@ -19,14 +19,14 @@ export const projects = [
     name: "Google Drive Clone",
     image: GOOGLEDRIVECLONE_IMG,
     github: "https://github.com/Afanami/google-drive-clone",
-    demo: "https://moogledrive.com/",
+    demo: "https://moogledrive.netlify.app",
   },
   {
     id: 3,
     name: "Yelp Clone",
     image: YELPCLONE_IMG,
     github: "https://github.com/Afanami/yelp-clone-2022",
-    demo: "https://yelperia.com/",
+    demo: "https://yelperia.netlify.app",
   },
   {
     id: 4,
